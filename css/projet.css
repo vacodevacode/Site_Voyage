@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    flex: 1 1 60%;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1 1 35%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #333;
+}
+
+h1 {
+    color: #333;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
